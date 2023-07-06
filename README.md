@@ -8,6 +8,50 @@ Git — система управления версиями с распреде
 
 ## Установка *Git на Linux*
 
+Также коротко покажем, как можно установить Git в различные дистрибутивы Linux. Как правило, самостоятельно скачивать ничего не нужно, достаточно воспользоваться встроенным в дистрибутив пакетным менеджером.
+
+*Debian*
+
+pt-get install git
+
+*Ubuntu*
+
+add-apt-repository ppa:git-core/ppa # apt update; apt install git
+
+*Fedora 21*
+
+yum install git
+
+*Fedora 22+*
+
+dnf install git
+
+*Gentoo*
+
+emerge --ask --verbose dev-vcs/git
+
+*Arch Linux*
+
+man -S git
+
+*OpenSUSE*
+
+ypper install git
+
+*Mageia*
+
+rpmi git
+
+*FreeBSD*
+
+pkg install git
+
+*OpenBSD*
+
+g_add git
+
+*RHEL, CentOS, Oracle Linux и др.*
+
 ## Первоначальная настройка и создание репозитория
 
 ## Подготовка репозитория
